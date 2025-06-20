@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<GridPane maxHeight="-Infinity" maxWidth="-Infinity" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="mx.edu.ingenium.demo.IndexController">
+
+    <columnConstraints>
+        <ColumnConstraints fillWidth="false" hgrow="SOMETIMES" percentWidth="20.0" />
+        <ColumnConstraints hgrow="SOMETIMES" minWidth="138.0" prefWidth="138.0" />
+        <ColumnConstraints hgrow="SOMETIMES" minWidth="138.0" prefWidth="138.0" />
+        <ColumnConstraints hgrow="SOMETIMES" minWidth="138.0" prefWidth="138.0" />
+        <ColumnConstraints hgrow="SOMETIMES" minWidth="138.0" prefWidth="138.0" />
+        <ColumnConstraints hgrow="SOMETIMES" minWidth="138.0" prefWidth="138.0" />
+        <ColumnConstraints hgrow="SOMETIMES" minWidth="138.0" prefWidth="138.0" />
+        <ColumnConstraints minWidth="138.0" prefWidth="138.0" />
+        <ColumnConstraints percentWidth="3.0" />
+    </columnConstraints>
+    <rowConstraints>
+        <RowConstraints minHeight="50.0" vgrow="SOMETIMES" />
+        <RowConstraints minHeight="50.0" vgrow="SOMETIMES" />
+        <RowConstraints minHeight="10.0" prefHeight="131.0" vgrow="SOMETIMES" />
+        <RowConstraints minHeight="10.0" prefHeight="131.0" vgrow="SOMETIMES" />
+        <RowConstraints minHeight="10.0" prefHeight="131.0" vgrow="SOMETIMES" />
+        <RowConstraints minHeight="10.0" prefHeight="131.0" vgrow="SOMETIMES" />
+        <RowConstraints minHeight="10.0" prefHeight="131.0" vgrow="SOMETIMES" />
+        <RowConstraints minHeight="10.0" vgrow="SOMETIMES" />
+    </rowConstraints>
+    <children>
+
+        <!-- FILA 1 CALENDARIO            -->
+
+        <Button minWidth="100.0" mnemonicParsing="false" prefHeight="135.0" prefWidth="144.0" style="-fx-background-color: none;" styleClass="calendarDay" text="1" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="2">
+            <font>
+                <Font size="37.0" />
+            </font>
+        </Button>
+        <Button minWidth="100.0" mnemonicParsing="false" prefHeight="135.0" prefWidth="144.0" style="-fx-background-color: none;" styleClass="calendarDay" text="2" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="2">
+            <font>
+                <Font size="37.0" />
+            </font>
+        </Button>
+        <Button minWidth="100.0" mnemonicParsing="false" prefHeight="135.0" prefWidth="144.0" style="-fx-background-color: none;" styleClass="calendarDay" text="3" GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.rowIndex="2">
+            <font>
+                <Font size="37.0" />
+            </font>
+        </Button>
+        <Button minWidth="100.0" mnemonicParsing="false" prefHeight="135.0" prefWidth="144.0" style="-fx-background-color: none;" styleClass="calendarDay" text="4" GridPane.columnIndex="4" GridPane.halignment="CENTER" GridPane.rowIndex="2">
+            <font>
+                <Font size="37.0" />
+            </font>
+        </Button>
+
+        <Button minWidth="100.0" mnemonicParsing="false" prefHeight="135.0" prefWidth="144.0" style="-fx-background-color: none;" styleClass="calendarDay" text="5" GridPane.columnIndex="5" GridPane.halignment="CENTER" GridPane.rowIndex="2">
+            <font>
+                <Font size="37.0" />
+            </font>
+        </Button>
+
+        <Button minWidth="100.0" mnemonicParsing="false" prefHeight="135.0" prefWidth="144.0" style="-fx-background-color: none;" styleClass="calendarDay" text="6" GridPane.columnIndex="6" GridPane.halignment="CENTER" GridPane.rowIndex="2">
+            <font>
+                <Font size="37.0" />
+            </font>
+        </Button>
+        <Button minWidth="100.0" mnemonicParsing="false" prefHeight="135.0" prefWidth="144.0" style="-fx-background-color: none;" styleClass="calendarDay" text="7" GridPane.columnIndex="7" GridPane.halignment="CENTER" GridPane.rowIndex="2">
+            <font>
+                <Font size="37.0" />
+            </font>
+        </Button>
+
+        <!--        FILA 2 DEL CALENDARIO   -->
+
+        <Button minWidth="100.0" mnemonicParsing="false" prefHeight="135.0" prefWidth="144.0" style="-fx-background-color: none;" styleClass="calendarDay" text="8" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="3">
+            <font>
+                <Font size="37.0" />
+            </font>
+        </Button>
+        <Button minWidth="100.0" mnemonicParsing="false" prefHeight="135.0" prefWidth="144.0" style="-fx-background-color: none;" styleClass="calendarDay" text="9" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="3">
+            <font>
+                <Font size="37.0" />
+            </font>
+        </Button>
+        <Button minWidth="100.0" mnemonicParsing="false" prefHeight="135.0" prefWidth="144.0" style="-fx-background-color: none;" styleClass="calendarDay" text="10" GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.rowIndex="3">
+            <font>
+                <Font size="37.0" />
+            </font>
+        </Button>
+        <Button minWidth="100.0" mnemonicParsing="false" prefHeight="135.0" prefWidth="144.0" style="-fx-background-color: none;" styleClass="calendarDay" text="11" GridPane.columnIndex="4" GridPane.halignment="CENTER" GridPane.rowIndex="3">
+            <font>
+                <Font size="37.0" />
+            </font>
+        </Button>
+        <Button minWidth="100.0" mnemonicParsing="false" prefHeight="135.0" prefWidth="144.0" style="-fx-background-color: none;" styleClass="calendarDay" text="12" GridPane.columnIndex="5" GridPane.halignment="CENTER" GridPane.rowIndex="3">
+            <font>
+                <Font size="37.0" />
+            </font>
+        </Button>
+        <Button minWidth="100.0" mnemonicParsing="false" prefHeight="135.0" prefWidth="144.0" style="-fx-background-color: none;" styleClass="calendarDay" text="13" GridPane.columnIndex="6" GridPane.halignment="CENTER" GridPane.rowIndex="3">
+            <font>
+                <Font size="37.0" />
+            </font>
+        </Button>
+        <Button minWidth="100.0" mnemonicParsing="false" prefHeight="135.0" prefWidth="144.0" style="-fx-background-color: none;" styleClass="calendarDay" text="14" GridPane.columnIndex="7" GridPane.halignment="CENTER" GridPane.rowIndex="3">
+            <font>
+                <Font size="37.0" />
+            </font>
+        </Button>
+
+        <!--        FILA 3 DEL CALENDARIO   -->
+
+        <Button minWidth="100.0" mnemonicParsing="false" prefHeight="135.0" prefWidth="144.0" style="-fx-background-color: none;" styleClass="calendarDay" text="15" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="4">
+            <font>
+                <Font size="37.0" />
+            </font>
+        </Button>
+        <Button minWidth="100.0" mnemonicParsing="false" prefHeight="135.0" prefWidth="144.0" style="-fx-background-color: none;" styleClass="calendarDay" text="16" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="4">
+            <font>
+                <Font size="37.0" />
+            </font>
+        </Button>
+        <Button minWidth="100.0" mnemonicParsing="false" prefHeight="135.0" prefWidth="144.0" style="-fx-background-color: none;" styleClass="calendarDay" text="17" GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.rowIndex="4">
+            <font>
+                <Font size="37.0" />
+            </font>
+        </Button>
+        <Button minWidth="100.0" mnemonicParsing="false" prefHeight="135.0" prefWidth="144.0" style="-fx-background-color: none;" styleClass="calendarDay" text="18" GridPane.columnIndex="4" GridPane.halignment="CENTER" GridPane.rowIndex="4">
+            <font>
+                <Font size="37.0" />
+            </font>
+        </Button>
+        <Button minWidth="100.0" mnemonicParsing="false" prefHeight="135.0" prefWidth="144.0" style="-fx-background-color: none;" styleClass="calendarDay" text="19" GridPane.columnIndex="5" GridPane.halignment="CENTER" GridPane.rowIndex="4">
+            <font>
+                <Font size="37.0" />
+            </font>
+        </Button>
+        <Button minWidth="100.0" mnemonicParsing="false" prefHeight="135.0" prefWidth="144.0" style="-fx-background-color: none;" styleClass="calendarDay" text="20" GridPane.columnIndex="6" GridPane.halignment="CENTER" GridPane.rowIndex="4">
+            <font>
+                <Font size="37.0" />
+            </font>
+        </Button>
+        <Button minWidth="100.0" mnemonicParsing="false" prefHeight="135.0" prefWidth="144.0" style="-fx-background-color: none;" styleClass="calendarDay" text="21" GridPane.columnIndex="7" GridPane.halignment="CENTER" GridPane.rowIndex="4">
+            <font>
+                <Font size="37.0" />
+            </font>
+        </Button>
+
+        <!--        FILA 4 DEL CALENDARIO   -->
+
+        <Button minWidth="100.0" mnemonicParsing="false" prefHeight="135.0" prefWidth="144.0" style="-fx-background-color: none;" styleClass="calendarDay" text="22" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="5">
+            <font>
+                <Font size="37.0" />
+            </font>
+        </Button>
+        <Button minWidth="100.0" mnemonicParsing="false" prefHeight="135.0" prefWidth="144.0" style="-fx-background-color: none;" styleClass="calendarDay" text="23" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="5">
+            <font>
+                <Font size="37.0" />
+            </font>
+        </Button>
+        <Button minWidth="100.0" mnemonicParsing="false" prefHeight="135.0" prefWidth="144.0" style="-fx-background-color: none;" styleClass="calendarDay" text="24" GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.rowIndex="5">
+            <font>
+                <Font size="37.0" />
+            </font>
+        </Button>
+        <Button minWidth="100.0" mnemonicParsing="false" prefHeight="135.0" prefWidth="144.0" style="-fx-background-color: none;" styleClass="calendarDay" text="25" GridPane.columnIndex="4" GridPane.halignment="CENTER" GridPane.rowIndex="5">
+            <font>
+                <Font size="37.0" />
+            </font>
+        </Button>
+        <Button minWidth="100.0" mnemonicParsing="false" prefHeight="135.0" prefWidth="144.0" style="-fx-background-color: none;" styleClass="calendarDay" text="26" GridPane.columnIndex="5" GridPane.halignment="CENTER" GridPane.rowIndex="5">
+            <font>
+                <Font size="37.0" />
+            </font>
+        </Button>
+        <Button minWidth="100.0" mnemonicParsing="false" prefHeight="135.0" prefWidth="144.0" style="-fx-background-color: none;" styleClass="calendarDay" text="27" GridPane.columnIndex="6" GridPane.halignment="CENTER" GridPane.rowIndex="5">
+            <font>
+                <Font size="37.0" />
+            </font>
+        </Button>
+        <Button minWidth="100.0" mnemonicParsing="false" prefHeight="135.0" prefWidth="144.0" style="-fx-background-color: none;" styleClass="calendarDay" text="28" GridPane.columnIndex="7" GridPane.halignment="CENTER" GridPane.rowIndex="5">
+            <font>
+                <Font size="37.0" />
+            </font>
+        </Button>
+
+        <!--        FILA 5 DEL CALENDARIO   -->
+
+        <Button minWidth="100.0" mnemonicParsing="false" prefHeight="135.0" prefWidth="144.0" style="-fx-background-color: none;" styleClass="calendarDay" text="29" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="6">
+            <font>
+                <Font size="37.0" />
+            </font>
+        </Button>
+        <Button minWidth="100.0" mnemonicParsing="false" prefHeight="135.0" prefWidth="144.0" style="-fx-background-color: none;" styleClass="calendarDay" text="30" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="6">
+            <font>
+                <Font size="37.0" />
+            </font>
+        </Button>
+        <Button minWidth="100.0" mnemonicParsing="false" prefHeight="135.0" prefWidth="144.0" style="-fx-background-color: none;" styleClass="calendarDay" text="31" GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.rowIndex="6">
+            <font>
+                <Font size="37.0" />
+            </font>
+        </Button>
+
+
+        <!--        ETIQUETAS DE DÍA         -->
+
+        <Label alignment="CENTER" contentDisplay="TOP" prefHeight="26.0" prefWidth="138.0" text="LUNES" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="1">
+            <font>
+                <Font name="JetBrains Mono ExtraLight" size="18.0" />
+            </font>
+        </Label>
+
+        <Label alignment="CENTER" contentDisplay="TOP" prefHeight="26.0" prefWidth="138.0" text="MARTES" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="1">
+            <font>
+                <Font name="JetBrains Mono ExtraLight" size="18.0" />
+            </font>
+        </Label>
+
+        <Label alignment="CENTER" contentDisplay="TOP" prefHeight="26.0" prefWidth="138.0" text="MIÉRCOLES" GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.rowIndex="1">
+            <font>
+                <Font name="JetBrains Mono ExtraLight" size="18.0" />
+            </font>
+        </Label>
+
+        <Label alignment="CENTER" contentDisplay="TOP" prefHeight="26.0" prefWidth="138.0" text="JUEVES" GridPane.columnIndex="4" GridPane.halignment="CENTER" GridPane.rowIndex="1">
+            <font>
+                <Font name="JetBrains Mono ExtraLight" size="18.0" />
+            </font>
+        </Label>
+
+        <Label alignment="CENTER" contentDisplay="TOP" prefHeight="26.0" prefWidth="138.0" text="VIERNES" GridPane.columnIndex="5" GridPane.halignment="CENTER" GridPane.rowIndex="1">
+            <font>
+                <Font name="JetBrains Mono ExtraLight" size="18.0" />
+            </font>
+        </Label>
+
+        <Label alignment="CENTER" contentDisplay="TOP" prefHeight="26.0" prefWidth="138.0" text="SÁBADO" GridPane.columnIndex="6" GridPane.halignment="CENTER" GridPane.rowIndex="1">
+            <font>
+                <Font name="JetBrains Mono ExtraLight" size="18.0" />
+            </font>
+        </Label>
+
+        <Label alignment="CENTER" contentDisplay="TOP" prefHeight="26.0" prefWidth="138.0" text="DOMINGO" GridPane.columnIndex="7" GridPane.halignment="CENTER" GridPane.rowIndex="1">
+            <font>
+                <Font name="JetBrains Mono ExtraLight" size="18.0" />
+            </font>
+        </Label>
+        <ListView fx:id="calendarCategories" prefHeight="200.0" prefWidth="296.0" style="-fx-border-color: black; -fx-border-width: 1; -fx-border-radius: 5;" GridPane.rowIndex="3" GridPane.rowSpan="3">
+            <GridPane.margin>
+                <Insets left="5.0" right="5.0" />
+            </GridPane.margin>
+        </ListView>
+        <Label text="Categorías" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="BOTTOM">
+            <font>
+                <Font name="JetBrains Mono ExtraBold" size="36.0" />
+            </font>
+        </Label>
+        <Button mnemonicParsing="false" prefHeight="48.0" prefWidth="149.0" style="-fx-background-color: #392F37; -fx-border-radius: 30;" text="AÑADIR" textFill="WHITE" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="TOP">
+            <font>
+                <Font name="JetBrains Mono ExtraBold Italic" size="18.0" />
+            </font>
+        </Button>
+        <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="44.0" prefWidth="133.0" style="-fx-background-color: #868C72;" text="JULIO" textAlignment="CENTER" GridPane.columnIndex="3" GridPane.columnSpan="3" GridPane.halignment="CENTER" GridPane.valignment="CENTER">
+            <font>
+                <Font name="JetBrains Mono ExtraBold" size="32.0" />
+            </font>
+        </Label>
+
+
+    </children>
+</GridPane>
