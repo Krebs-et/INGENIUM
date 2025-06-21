@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="mx.edu.ingenium.demo.HelloController">
+   <children>
+      <Pane layoutX="300.0" prefHeight="400.0" prefWidth="300.0" style="-fx-background-color: #868C72;">
+         <children>
+            <TextField layoutX="42.0" layoutY="128.0" prefHeight="25.0" prefWidth="216.0" style="-fx-background-color: F2F3ED;" />
+            <Label layoutX="42.0" layoutY="100.0" text="Nombre" textFill="WHITE">
+               <font>
+                  <Font name="JetBrains Mono ExtraBold" size="14.0" />
+               </font></Label>
+            <PasswordField layoutX="42.0" layoutY="200.0" prefHeight="25.0" prefWidth="216.0" style="-fx-background-color: F2F3ED;" />
+            <Label layoutX="42.0" layoutY="172.0" text="Contraseña" textFill="WHITE">
+               <font>
+                  <Font name="JetBrains Mono ExtraBold" size="14.0" />
+               </font></Label>
+            <Button layoutX="92.0" layoutY="277.0" mnemonicParsing="false" style="-fx-background-color: DCDED4;" text="Iniciar Sesión">
+               <font>
+                  <Font name="JetBrains Mono ExtraBold" size="12.0" />
+               </font></Button>
+            <Button layoutX="102.0" layoutY="311.0" mnemonicParsing="false" style="-fx-background-color: DCDED4;" text="Registrarse">
+               <font>
+                  <Font name="JetBrains Mono ExtraBold" size="12.0" />
+               </font></Button>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#a7ae8e" height="48.0" layoutX="-5.0" layoutY="23.0" stroke="#a7ae8e" strokeType="INSIDE" width="191.0" />
+            <Label layoutX="10.0" layoutY="36.0" text="Inicio De Sesión" textFill="WHITE">
+               <font>
+                  <Font name="JetBrains Mono ExtraBold" size="17.0" />
+               </font>
+            </Label>
+         </children></Pane>
+      <Pane prefHeight="400.0" prefWidth="300.0" style="-fx-background-color: BDC5A3;">
+         <children>
+            <ImageView fitHeight="400.0" fitWidth="348.0" layoutX="-12.0" layoutY="30.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@vistas/flatillustration.png" />
+               </image>
+            </ImageView>
+         </children></Pane>
+   </children>
+</AnchorPane>
