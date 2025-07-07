@@ -16,7 +16,7 @@ public Button IniciarSesion;
 
     @FXML
     private void cerrarSesion(ActionEvent event) {
-        //Codigo de Funcion segun LUIS
+  
         try {
             //1. necesitamos cargar mi nueva ventana
             Parent login = FXMLLoader.load(getClass().getResource("index.fxml")
