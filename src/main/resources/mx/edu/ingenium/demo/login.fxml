@@ -20,7 +20,7 @@
                <font>
                   <Font name="JetBrains Mono ExtraBold" size="14.0" />
                </font></Label>
-            <Button layoutX="92.0" layoutY="277.0" mnemonicParsing="false" style="-fx-background-color: DCDED4;" text="Iniciar Sesión">
+            <Button fx:id="IniciarSesion" layoutX="92.0" layoutY="277.0" mnemonicParsing="false" onAction="#cerrarSesion" style="-fx-background-color: DCDED4;" text="Iniciar Sesión">
                <font>
                   <Font name="JetBrains Mono ExtraBold" size="12.0" />
                </font></Button>
