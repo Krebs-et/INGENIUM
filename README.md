@@ -6,7 +6,7 @@
 - Avilés Sánchez Emiliano
 - Castillo Flores José Eduardo
 - Soriano Ocampo Yoed
-puta zagal
+- Zagal Garcia Diego
 
 
 ---
